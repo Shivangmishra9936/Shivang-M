@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Shivang Mishra</title>
+<meta name="description" content="Cloud, data and AI projects by Shivang Mishra, including AWS pipelines, FraudShield AI, Neuro Find and J.A.R.V.I.S. voice assistant.">
+<link rel="icon" href="assets/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="projects.html">
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<header class="navbar" id="site-navbar"></header>
+<div class="mobile-menu" id="mobile-menu"></div>
+
+<main>
+  <section class="page-hero">
+    <div class="container" data-reveal>
+      <div class="eyebrow">Projects</div>
+      <h1>Systems I've designed and built.</h1>
+      <p class="lead" style="font-size:17px;">Cloud pipelines, AI models and automation tools — filter by category or open a project for details.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="filter-row" data-reveal>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="aws">AWS</button>
+        <button class="filter-btn" data-filter="data">Data</button>
+        <button class="filter-btn" data-filter="ai">AI</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+      </div>
+      <div class="grid project-grid" id="projectGrid"></div>
+    </div>
+  </section>
+</main>
+
+<div class="modal-overlay" id="projectModal">
+  <div class="modal-box" id="projectModalBox" style="position:relative;"></div>
+</div>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i data-lucide="arrow-up"></i></button>
+<footer id="site-footer"></footer>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

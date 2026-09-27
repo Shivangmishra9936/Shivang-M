@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Shivang Mishra</title>
+<meta name="description" content="Get in touch with Shivang Mishra for cloud, data, AI and automation work.">
+<link rel="icon" href="assets/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="contact.html">
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<header class="navbar" id="site-navbar"></header>
+<div class="mobile-menu" id="mobile-menu"></div>
+
+<main>
+  <section class="page-hero">
+    <div class="container" data-reveal>
+      <div class="eyebrow">Contact</div>
+      <h1>Let's talk about your project.</h1>
+      <p class="lead" style="font-size:17px;">Reach out directly, or send a message and I'll get back to you.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container contact-grid">
+      <div data-reveal>
+        <div class="card glass" style="padding:32px;">
+          <h2 style="font-size:19px; margin-bottom:6px;">Contact details</h2>
+          <p style="font-size:14px; margin-bottom:6px;">Available for cloud, data, AI and automation work.</p>
+          <div id="contactInfo"></div>
+        </div>
+        <div class="social-row" id="contactSocial"></div>
+      </div>
+
+      <div data-reveal data-reveal-delay="2">
+        <div class="card glass" style="padding:34px;">
+          <div class="form-success" id="formSuccess"><i data-lucide="check-circle-2"></i> Your email app should now be open with the message ready to send.</div>
+          <form id="contactForm">
+            <div class="form-field">
+              <label for="cf-name">Name</label>
+              <input type="text" id="cf-name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-field">
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-field">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" placeholder="Tell me a bit about what you need..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <p class="form-note">Sending opens your default email app with the message pre-filled, addressed to shivangmishra993667@gmail.com.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i data-lucide="arrow-up"></i></button>
+<footer id="site-footer"></footer>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
